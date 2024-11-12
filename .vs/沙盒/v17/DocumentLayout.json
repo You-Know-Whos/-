@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|d:\\unity hub\\projects\\\u6C99\u76D2\\assets\\script\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|d:\\unity hub\\projects\\\u6C99\u76D2\\assets\\script\\object\\placeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\object\\placeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\camera\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\camera\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TODOList.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\TODOList.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TODOList.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\TODOList.cs",
+              "RelativeToolTip": "Assets\\Script\\TODOList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:37:24.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaceObject.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Object\\PlaceObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Object\\PlaceObject.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Object\\PlaceObject.cs",
+              "RelativeToolTip": "Assets\\Script\\Object\\PlaceObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:34:22.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Camera\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Camera\\CameraManager.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Camera\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Camera\\CameraManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:47:00.144Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
