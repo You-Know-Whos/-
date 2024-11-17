@@ -5,18 +5,18 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
 
-    public float translateSpeed = 0.05f;
-    public float zoomSpeed = 0.1f;
-    public float rotationSpeed = 0.1f;
+    private float translateSpeed = 0.01f;
+    private float zoomSpeed = 0.3f;
+    private float rotationSpeed = 0.6f;
 
 
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.W))
         {
             float y = Camera.main.transform.position.y;
-            Camera.main.transform.Translate(Vector3.forward * translateSpeed * 1.4f);
+            Camera.main.transform.Translate(Vector3.forward * translateSpeed * Camera.main.fieldOfView * 1.4f);
             Vector3 newPosition = Camera.main.transform.position;
             newPosition.y = y;
             Camera.main.transform.position = newPosition;
@@ -24,15 +24,15 @@ public class CameraManager : MonoBehaviour
         else if (Input.GetKey(KeyCode.S))
         {
             float y = Camera.main.transform.position.y;
-            Camera.main.transform.Translate(Vector3.back * translateSpeed * 1.4f);
+            Camera.main.transform.Translate(Vector3.back * translateSpeed * Camera.main.fieldOfView * 1.4f);
             Vector3 newPosition = Camera.main.transform.position;
             newPosition.y = y;
             Camera.main.transform.position = newPosition;
         }
         else if (Input.GetKey(KeyCode.A))
-            Camera.main.transform.Translate(Vector3.left * translateSpeed);
+            Camera.main.transform.Translate(Vector3.left * translateSpeed * Camera.main.fieldOfView);
         else if (Input.GetKey(KeyCode.D))
-            Camera.main.transform.Translate(Vector3.right * translateSpeed);
+            Camera.main.transform.Translate(Vector3.right * translateSpeed * Camera.main.fieldOfView);
 
         if (Input.GetKey(KeyCode.Z))
         {
