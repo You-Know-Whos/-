@@ -18,11 +18,13 @@ public class GameMode_StateMachine : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Time.timeScale = Time.timeScale == 0 ? timeScale : 0;
+            ModeUI.Instance.SetImage(timeScale);
         }
         if (Input.GetKeyDown(KeyCode.Tab) && Time.timeScale != 0)
         {
             Time.timeScale = Time.timeScale == 1 ? 0.1f : 1;
             timeScale = Time.timeScale;
+            ModeUI.Instance.SetImage(timeScale);
         }
         if (Input.GetKeyDown(KeyCode.X))
         {

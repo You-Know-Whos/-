@@ -11,7 +11,7 @@ public class CameraManager : MonoBehaviour
 
 
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (Input.GetKey(KeyCode.W))
         {

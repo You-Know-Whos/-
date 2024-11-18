@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CreativeMode : GameMode_StateMachine
 {
     public new Camera camera;
-    private GameObject objectPreview;
-    private LineRenderer line;
-    public float transparency = 0.3f;
-
     public List<GameObject> objectPrefabs;
-    public List<GameObject> objectPreviews;
-    public int index = 0;
+
+    private GameObject objectPreview = null;
+    private LineRenderer line;
+    private float transparency = 0.3f;
+    private float depth = 0.8f;
+    private List<GameObject> objectPreviews = new List<GameObject>();
+    private int index = 0;
+    private Dictionary<string, Image> opUIDictionary = new Dictionary<string, Image>();
 
 
 
@@ -31,8 +34,15 @@ public class CreativeMode : GameMode_StateMachine
             line.endWidth = 0.1f;
             line.material.color = new Color(1f, 1f, 1f, transparency);
             prefab.transform.SetParent(transform);
-            prefab.SetActive(false);
             objectPreviews.Add(prefab);
+            prefab.SetActive(false);
+
+            GameObject objectPreviewUI = new GameObject(pf.name);
+            objectPreviewUI.transform.SetParent(GameObject.Find("Canvas/ObjectPreviewUI").transform);
+            objectPreviewUI.AddComponent<Image>();
+            ObjectPreviewUI.Instance.AddImage(objectPreviewUI);
+            objectPreviewUI.GetComponent<Image>().color = new Color(1, 1, 1, transparency);
+            opUIDictionary.Add(pf.name + "(Clone)", objectPreviewUI.GetComponent<Image>());
         }
     }
     private void OnEnable()
@@ -45,7 +55,7 @@ public class CreativeMode : GameMode_StateMachine
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-            objectPreview.transform.position = hit.point * 0.8f + camera.transform.position * 0.2f;
+            objectPreview.transform.position = hit.point * depth + camera.transform.position * (1 - depth);
         }
         if (Physics.Raycast(objectPreview.transform.position, Vector3.down, out hit))
         {
@@ -69,7 +79,7 @@ public class CreativeMode : GameMode_StateMachine
                 Instantiate(objectPrefabs[index], objectPreview.transform.position, Quaternion.identity);
             }
         }
-        else if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -78,13 +88,13 @@ public class CreativeMode : GameMode_StateMachine
                 Destroy(hit.collider.gameObject);
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             gameMode.gameMode = GetComponent<LiberalMode>();
             gameMode.gameMode.enabled = true;
             this.enabled = false;
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") != 0)
+        if (Input.GetAxis("Mouse ScrollWheel") != 0)
         {
             float scroll = Input.GetAxis("Mouse ScrollWheel");
             if (scroll > 0)
@@ -103,16 +113,34 @@ public class CreativeMode : GameMode_StateMachine
             }
             SetObjectPreview();
         }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (depth < 0.995f)
+                depth += 0.005f;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            if (depth > 0.055f)
+                depth -= 0.005f;
+        }
     }
     private void SetObjectPreview()
     {
         if (objectPreview != null)
         {
             objectPreview.SetActive(false);
+            if (opUIDictionary.TryGetValue(objectPreview.name, out Image oldImage))
+            {
+                oldImage.color = new Color(1, 1, 1, transparency);
+            }
         }
         objectPreview = objectPreviews[index];
         objectPreview.SetActive(true);
         line = objectPreview.GetComponent<LineRenderer>();
+        if (opUIDictionary.TryGetValue(objectPreview.name, out Image newImage))
+        {
+            newImage.color = new Color(1, 1, 1, 1);
+        }
     }
 }
 

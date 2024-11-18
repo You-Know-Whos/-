@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\gamemode\\liberalmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemode\\liberalmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|d:\\unity hub\\projects\\\u6C99\u76D2\\assets\\script\\ui\\objectpreviewso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\objectpreviewso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|d:\\unity hub\\projects\\\u6C99\u76D2\\assets\\script\\gamemode\\creativemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\function\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\function\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\ui\\modeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\modeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\gamemode\\creativemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemode\\creativemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\ui\\objectpreviewui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\objectpreviewui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\gamemode\\gamemode_statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemode\\gamemode_statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\gamemode\\liberalmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemode\\liberalmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\function\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\function\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|d:\\unity hub\\projects\\\u6C99\u76D2\\assets\\script\\function\\repulsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\function\\repulsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemode\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\function\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,8 +51,8 @@
       "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\camera\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|D:\\Unity Hub\\Projects\\\u6C99\u76D2\\assets\\script\\function\\repulsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FA2EB51-2664-C1F9-7FEC-C8C5B8771FD5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\function\\repulsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,102 +62,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LiberalMode.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\LiberalMode.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\LiberalMode.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\LiberalMode.cs",
-              "RelativeToolTip": "Assets\\Script\\GameMode\\LiberalMode.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "Title": "ObjectPreviewSO.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\UI\\ObjectPreviewSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\ObjectPreviewSO.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\UI\\ObjectPreviewSO.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\ObjectPreviewSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T07:07:23.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreativeMode.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\CreativeMode.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\CreativeMode.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\CreativeMode.cs",
-              "RelativeToolTip": "Assets\\Script\\GameMode\\CreativeMode.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAcwFUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:28:55.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameMode.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\GameMode.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\GameMode.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\GameMode.cs",
-              "RelativeToolTip": "Assets\\Script\\GameMode\\GameMode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:24:01.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Explosion.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Explosion.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Explosion.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Explosion.cs",
-              "RelativeToolTip": "Assets\\Script\\Function\\Explosion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:20:13.619Z",
+              "WhenOpened": "2024-11-18T10:43:03.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Repulsion.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Repulsion.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Repulsion.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Repulsion.cs",
-              "RelativeToolTip": "Assets\\Script\\Function\\Repulsion.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwA8AAAAhAAAAAAAAAA==",
+              "Title": "ObjectPreviewUI.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\UI\\ObjectPreviewUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\ObjectPreviewUI.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\UI\\ObjectPreviewUI.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\ObjectPreviewUI.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T10:22:59.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T03:40:46.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Attraction.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Attraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Attraction.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Attraction.cs",
-              "RelativeToolTip": "Assets\\Script\\Function\\Attraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ModeUI.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\UI\\ModeUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\ModeUI.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\UI\\ModeUI.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\ModeUI.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:09:00.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T03:03:10.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreativeMode.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\CreativeMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\CreativeMode.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\CreativeMode.cs",
+              "RelativeToolTip": "Assets\\Script\\GameMode\\CreativeMode.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvx4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:28:55.888Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CameraManager.cs",
-              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Camera\\CameraManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Camera\\CameraManager.cs",
-              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Camera\\CameraManager.cs",
-              "RelativeToolTip": "Assets\\Script\\Camera\\CameraManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Title": "GameMode_StateMachine.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\GameMode_StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\GameMode_StateMachine.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\GameMode_StateMachine.cs",
+              "RelativeToolTip": "Assets\\Script\\GameMode\\GameMode_StateMachine.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:28:29.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T10:52:51.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "Explosion.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Explosion.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Explosion.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Explosion.cs",
+              "RelativeToolTip": "Assets\\Script\\Function\\Explosion.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:20:13.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TODOList.cs",
               "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\TODOList.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TODOList.cs",
@@ -145,8 +159,79 @@
               "RelativeToolTip": "Assets\\Script\\TODOList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:37:24.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T13:37:24.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Function.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Function.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Function.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Function.cs",
+              "RelativeToolTip": "Assets\\Script\\Function\\Function.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:31:34.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameMode.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\GameMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\GameMode.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\GameMode.cs",
+              "RelativeToolTip": "Assets\\Script\\GameMode\\GameMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:24:01.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LiberalMode.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\LiberalMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameMode\\LiberalMode.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\GameMode\\LiberalMode.cs",
+              "RelativeToolTip": "Assets\\Script\\GameMode\\LiberalMode.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T07:07:23.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Attraction.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Attraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Attraction.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Attraction.cs",
+              "RelativeToolTip": "Assets\\Script\\Function\\Attraction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:09:00.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CameraManager.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Camera\\CameraManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Camera\\CameraManager.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Camera\\CameraManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Camera\\CameraManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:28:29.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Repulsion.cs",
+              "DocumentMoniker": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Repulsion.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Function\\Repulsion.cs",
+              "ToolTip": "D:\\Unity Hub\\Projects\\\u6C99\u76D2\\Assets\\Script\\Function\\Repulsion.cs",
+              "RelativeToolTip": "Assets\\Script\\Function\\Repulsion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:22:59.746Z"
             }
           ]
         }

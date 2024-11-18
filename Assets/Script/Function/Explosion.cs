@@ -8,7 +8,7 @@ public class Explosion : Function
     private Vector3 boxSize = new Vector3(5.0f, 5.0f, 5.0f);
     private float force = 10f;
     private float explodeDelay = 5f;
-    private new float time;
+    private float boomTime;
     private float timeFlash;
     private Material boomDefault;
     public Material boomFlash;
@@ -21,7 +21,7 @@ public class Explosion : Function
         {
             this.enabled = false;
         }
-        time = 0;
+        boomTime = 0;
         timeFlash = 1f;
     }
     private void Start()
@@ -30,13 +30,13 @@ public class Explosion : Function
     }
     protected override void Update()
     {
-        time += Time.deltaTime;
-        if (time > timeFlash)
+        boomTime += Time.deltaTime;
+        if (boomTime > timeFlash)
         {
             GetComponent<Renderer>().material = GetComponent<Renderer>().material == boomDefault ? boomFlash : boomDefault;
-            timeFlash = Mathf.Lerp(time, explodeDelay, 0.2f);
+            timeFlash = Mathf.Lerp(boomTime, explodeDelay, 0.2f);
         }
-        if (time > explodeDelay)
+        if (boomTime > explodeDelay)
         {
             Func();
         }

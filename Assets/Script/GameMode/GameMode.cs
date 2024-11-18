@@ -16,7 +16,7 @@ public class GameMode : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.anyKeyDown || Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetMouseButtonUp(0))
+        if (Input.anyKey || Input.GetAxis("Mouse ScrollWheel") != 0 || Input.GetMouseButtonUp(0))
         {
             gameMode.HandleInput();
         }

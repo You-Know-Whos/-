@@ -27,11 +27,11 @@ public class LiberalMode : GameMode_StateMachine
                 offset = selectedGameObject.transform.position - mouseStartPos;
             }
         }
-        else if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
             selectedGameObject = null;
         }
-        else if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -43,7 +43,7 @@ public class LiberalMode : GameMode_StateMachine
                 }
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             gameMode.gameMode = GetComponent<CreativeMode>();
             gameMode.gameMode.enabled = true;

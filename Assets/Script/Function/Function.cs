@@ -16,7 +16,7 @@ public class Function : MonoBehaviour
             this.enabled = false;
         }
         time = 0;
-        timeGo = Time.deltaTime;
+        timeGo = 0.017f;
     }
     protected virtual void Update()
     {
@@ -24,7 +24,7 @@ public class Function : MonoBehaviour
         if (time >= timeGo)
         {
             Func();
-            timeGo += Time.deltaTime;
+            time = 0;
         }
     }
     protected virtual void Func() { }
