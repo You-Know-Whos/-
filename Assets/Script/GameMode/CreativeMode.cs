@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Pool;
 using UnityEngine.UI;
 
 public class CreativeMode : GameMode_StateMachine
@@ -22,7 +23,8 @@ public class CreativeMode : GameMode_StateMachine
     {
         foreach (GameObject pf in objectPrefabs)
         {
-            GameObject prefab = Instantiate(pf);
+            GameObject prefab = Instantiate(pf, transform);
+            prefab.name = pf.name;
             prefab.GetComponent<Rigidbody>().isKinematic = true;
             prefab.GetComponent<Collider>().enabled = false;
             Color color = prefab.GetComponent<Renderer>().material.color;
@@ -33,7 +35,6 @@ public class CreativeMode : GameMode_StateMachine
             line.startWidth = 0.1f;
             line.endWidth = 0.1f;
             line.material.color = new Color(1f, 1f, 1f, transparency);
-            prefab.transform.SetParent(transform);
             objectPreviews.Add(prefab);
             prefab.SetActive(false);
 
@@ -42,7 +43,10 @@ public class CreativeMode : GameMode_StateMachine
             objectPreviewUI.AddComponent<Image>();
             ObjectPreviewUI.Instance.AddImage(objectPreviewUI);
             objectPreviewUI.GetComponent<Image>().color = new Color(1, 1, 1, transparency);
-            opUIDictionary.Add(pf.name + "(Clone)", objectPreviewUI.GetComponent<Image>());
+            opUIDictionary.Add(pf.name, objectPreviewUI.GetComponent<Image>());
+
+            CreativeMode_ObjectPool.Instance.AddObjectPool(pf);
+            new GameObject(pf.name).transform.SetParent(CreativeMode_ObjectPool.Instance.objects.transform);
         }
     }
     private void OnEnable()
@@ -76,7 +80,9 @@ public class CreativeMode : GameMode_StateMachine
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                Instantiate(objectPrefabs[index], objectPreview.transform.position, Quaternion.identity);
+                GameObject obj = CreativeMode_ObjectPool.Instance.objectPools[objectPrefabs[index].name].Get();
+                obj.transform.position = objectPreview.transform.position;
+                obj.transform.rotation = Quaternion.identity;
             }
         }
         if (Input.GetMouseButtonDown(1))
@@ -85,7 +91,7 @@ public class CreativeMode : GameMode_StateMachine
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 10000f, ~LayerMask.GetMask("Environment")))
             {
-                Destroy(hit.collider.gameObject);
+                CreativeMode_ObjectPool.Instance.objectPools[hit.collider.gameObject.name].Release(hit.collider.gameObject);
             }
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -143,16 +149,3 @@ public class CreativeMode : GameMode_StateMachine
         }
     }
 }
-
-//public GameObject objectPreviewPrefab;
-//private void OnEnable()
-//{
-//    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-//    RaycastHit hit;
-//    if (Physics.Raycast(ray, out hit))
-//    {
-//        objectPreview = Instantiate(objectPreviewPrefab, hit.point * 0.8f + camera.transform.position * 0.2f, Quaternion.identity);
-//    }
-//    objectPreview.GetComponent<Renderer>().material.color = new Color(1f, 1f, 1f, 0.5f);
-//    objectPreview.transform.Find("Line").GetComponent<Renderer>().material.color = new Color(1f, 1f, 1f, 0.5f);
-//}

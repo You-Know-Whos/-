@@ -62,34 +62,3 @@ public class LiberalMode : GameMode_StateMachine
         }
     }
 }
-//public Camera game_camera;
-//public Collider coll;
-//Vector3 mouse_position;
-//Vector3 offset, mouseStartPos;
-//float depth;
-
-//void Start()
-//{
-//    coll = GetComponent<Collider>();
-//}
-//void Update()
-//{
-//    //mouse_position = game_camera.ScreenToWorldPoint(Input.mousePosition);
-//    Ray ray = game_camera.ScreenPointToRay(Input.mousePosition);
-//    RaycastHit hit;
-
-//    if (coll.Raycast(ray, out hit, 100.0f))
-//    {
-//        if (Input.GetMouseButtonDown(0))
-//        {
-
-//            depth = hit.distance;
-//            mouseStartPos = ray.origin + ray.direction * depth;
-//            offset = selectedGameObject.transform.position - mouseStartPos;
-//        }
-//        if (Input.GetMouseButton(0))
-//        {
-//            selectedGameObject.transform.position = ray.origin + ray.direction * depth + offset;
-//        }
-//    }
-//}

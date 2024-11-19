@@ -49,6 +49,6 @@ public class Explosion : Function
         {
             col.GetComponent<Rigidbody>().AddForce((col.transform.position - position) * force, ForceMode.Impulse);
         }
-        Destroy(gameObject);
+        CreativeMode_ObjectPool.Instance.objectPools[gameObject.name].Release(gameObject);
     }
 }
