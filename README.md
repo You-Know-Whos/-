@@ -21,3 +21,14 @@
 * **X**：切换重力方向
 * **空格**：切换暂停/开始
 * **Tab**：切换时间流速（快/慢）
+
+## 如何添加可放置物品
+> 1. 在Example下创建物体
+> 2. 修改新的物体（必要：添加Rigidbody组件、Line Renderer组件）
+> 3. 将物体拖拽到Prefab栏以创建预制体
+> 4. 将预制体拖拽到Manager.CreativeMode.ObjectPrefabs中
+> 5. 为你的新物体截图，放入Assets/Sprite文件夹
+> 6. 在Inspector的Assets/Sprite文件夹中将图片的纹理类型改为（Sprite（2D和UI））
+> 7. 在Inspector的Assets/SO文件夹中，将刚刚的图片拖拽到ObjectPreviewSO.Sprites中  
+>
+> *完成添加*
